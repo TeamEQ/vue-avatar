@@ -18,7 +18,7 @@
     "build": "cross-env NODE_ENV=production webpack --config build/webpack.min.conf.js",
     "deploy": "./bin/deploy-doc.sh"
   },
-  "main": "dist/vue-avatar.min.js",
+  "main": "src/Avatar.vue",
   "dependencies": {
     "vue": "^2.0.0",
     "babel-runtime": "^5.8.0"
